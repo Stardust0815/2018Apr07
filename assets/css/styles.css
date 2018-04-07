@@ -56,23 +56,25 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #074f66;
-  border: 1px solid #074f66;
+  background: #424e9099;
+  border: 1px solid #eebf3f;
   color: #fff;
   font-weight: 600;
+  min-width:200px;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #053c4e;
-  border: 1px solid #053c4e;
+  background: #424e9099;
+  border: 1px solid #eebf3f;
   color: #fff;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #eebf3f;
+  background: #424e9099;
   border: 1px solid #eebf3f;
   color: #fff;
+  min-width:150px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -94,7 +96,7 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #17baef;
+  background: #1782AD;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -150,11 +152,11 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #666;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -182,13 +184,15 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  background-image: url(../../assets/images/PH1.JPG);
+  background-position:center;
   color: #fff;
   padding-top: 150px;
 }
 .promo .title {
   font-size: 98px;
-  color: #074f66;
+  color: 
+  #eebf3f;
   margin-top: 0;
 }
 .promo .title .highlight {
